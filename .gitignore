@@ -1,0 +1,25 @@
+# Secretos y credenciales — NUNCA commitear
+.env
+credentials.json
+token.json
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Logs y datos locales
+*.log
+logs/
+*.sqlite
+*.db
+
+# SO / editor
+.DS_Store
+.idea/
+.vscode/

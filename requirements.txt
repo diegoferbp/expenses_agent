@@ -1,0 +1,14 @@
+# Anthropic SDK
+anthropic>=0.40
+
+# Google APIs (Gmail + Sheets)
+google-api-python-client>=2.0
+google-auth>=2.0
+google-auth-oauthlib>=1.0
+
+# Configuración
+python-dotenv>=1.0
+
+# Nota de seguridad (cadena de suministro):
+# tras instalar, fija las versiones exactas con `pip freeze > requirements.txt`
+# para builds reproducibles.
